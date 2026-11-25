@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-
-
 <html class="dark" lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Jurysoft - Enterprise Digital &amp; AI Solutions</title>
-<!-- Google Fonts: Plus Jakarta Sans -->
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
-<!-- Google Fonts: Inter + Newsreader (How We Are Different section) -->
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-
-<!-- Tailwind CSS CDN -->
-<script src="https://cdn.tailwindcss.com"></script>
-<!-- Lucide Icons -->
-<script src="https://unpkg.com/lucide@latest"></script>
+<title>Jurysoft - Enterprise Digital & AI Solutions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin/>
+<link rel="preconnect" href="https://unpkg.com" crossorigin/>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin/>
+<link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+<link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500;700&display=swap"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500;700&display=swap" media="print" onload="this.media='all'"/>
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500;700&display=swap"/></noscript>
+<script src="https://cdn.tailwindcss.com" defer></script>
+<script src="https://unpkg.com/lucide@latest" defer></script>
 <script>
     tailwind.config = {
       darkMode: 'class',
@@ -30,26 +28,11 @@
             mono: ['"JetBrains Mono"', 'monospace']
           },
           colors: {
-            brand: {
-              orange: '#E87932',
-              navy: '#0B0F17',
-              slate: '#141A26',
-              border: 'rgba(255, 255, 255, 0.12)'
-            },
-            bgCanvas: '#071329',
-            bgDark: '#0B1630',
-            cardDark: '#0E131F',
-            cardHover: '#141C2E',
-            borderDark: '#1A2336',
-            borderHighlight: '#2A3854',
-            accentOrange: '#E87932',
-            accentOrangeLight: '#F29454',
-            accentPurple: '#F29454',
-            accentCyan: '#F29454',
-            accentEmerald: '#E87932',
-            themeGold: '#F29454',
-            themePurple: '#F29454',
-            themeEmerald: '#E87932'
+            brand: { orange: '#E87932', navy: '#0B0F17', slate: '#141A26', border: 'rgba(255, 255, 255, 0.12)' },
+            bgCanvas: '#071329', bgDark: '#0B1630', cardDark: '#0E131F', cardHover: '#141C2E',
+            borderDark: '#1A2336', borderHighlight: '#2A3854', accentOrange: '#E87932',
+            accentOrangeLight: '#F29454', accentPurple: '#F29454', accentCyan: '#F29454',
+            accentEmerald: '#E87932', themeGold: '#F29454', themePurple: '#F29454', themeEmerald: '#E87932'
           }
         }
       }
@@ -1255,7 +1238,7 @@ html.lenis,html.lenis body{height:auto}
   display:grid;
   grid-template-columns:minmax(0,1.3fr) minmax(0,.8fr);
   gap:60px;align-items:center;
-  margin-bottom:110px;
+  margin-bottom:200px;
 }
 @media (min-width: 861px){
   #diff .head > div:first-child{
@@ -1534,14 +1517,25 @@ html.lenis,html.lenis body{height:auto}
 #jurysoft-standard .js-serif{font-family:'Newsreader',Georgia,serif;font-style:italic;color:#ff8a45;}
 #jurysoft-standard .js-instruction{margin-top:22px;color:#8c98aa;font-size:10px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;}
 #jurysoft-standard .js-instruction span{color:var(--js-orange);font-size:15px;margin-left:5px;}
-#jurysoft-standard .js-pillar{box-sizing:border-box;width:260px;height:320px;flex:none;padding:26px;border-radius:16px;background:linear-gradient(145deg,rgba(15,23,42,.92),rgba(8,14,27,.9));border:1px solid rgba(255,255,255,.11);backdrop-filter:blur(12px);display:flex;flex-direction:column;justify-content:space-between;transition:border-color .35s ease,box-shadow .35s ease,background .35s ease;}
+#jurysoft-standard .js-pillar{box-sizing:border-box;width:260px;height:320px;flex:none;padding:26px;border-radius:16px;position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(145deg,rgba(15,23,42,.92),rgba(8,14,27,.9));border:1px solid rgba(255,255,255,.11);backdrop-filter:blur(12px);display:flex;flex-direction:column;justify-content:space-between;transition:border-color .35s ease,box-shadow .35s ease,background .35s ease;}
+#jurysoft-standard .js-pillar::before{content:"";position:absolute;inset:0;z-index:-1;background-size:cover;background-position:center;opacity:0.35;filter:grayscale(0.3);}
+#jurysoft-standard .js-pillar::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(135deg,rgba(7,19,41,.65) 0%,rgba(11,22,38,.45) 45%,rgba(7,19,41,.7) 100%);}
+#jurysoft-standard .js-pillar > *{position:relative;z-index:1;}
+#jurysoft-standard .js-pillar:nth-child(2)::before{background-image:url("./images/delivery/1.png");}
+#jurysoft-standard .js-pillar:nth-child(3)::before{background-image:url("./images/delivery/2.png");}
+#jurysoft-standard .js-pillar:nth-child(4)::before{background-image:url("./images/delivery/3.png");}
+#jurysoft-standard .js-pillar:nth-child(5)::before{background-image:url("./images/delivery/4.png");}
+#jurysoft-standard .js-pillar:nth-child(6)::before{background-image:url("./images/delivery/5.png");}
+#jurysoft-standard .js-pillar:nth-child(7)::before{background-image:url("./images/delivery/6.png");}
 #jurysoft-standard .js-pillar:hover{border-color:rgba(255,85,0,.7);box-shadow:0 18px 45px -22px rgba(255,85,0,.35);background:linear-gradient(145deg,rgba(25,30,45,.98),rgba(12,18,31,.98));}
 #jurysoft-standard .js-number{display:block;font-size:9px;font-weight:800;letter-spacing:.18em;color:rgba(255,119,54,.85);margin-bottom:22px;}
 #jurysoft-standard .js-pillar h3{font-size:23px;line-height:1.2;font-weight:700;color:#fff;letter-spacing:-.03em;}
 #jurysoft-standard .js-subtitle{margin-top:4px;font-size:12px;font-weight:500;color:#9aa6b8;}
 #jurysoft-standard .js-promise{font-size:11px;line-height:1.7;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:#ff8a45;}
-#jurysoft-standard .js-feature-card{box-sizing:border-box;width:min(750px,82vw);height:320px;position:relative;overflow:hidden;flex:none;border-radius:18px;border:1px solid rgba(255,255,255,.13);background:linear-gradient(110deg,#0c1424 0%,#101d38 52%,#0a1222 100%);padding:36px;display:grid;grid-template-columns:minmax(0,1fr) 190px;align-items:center;gap:30px;}
-#jurysoft-standard .js-feature-card:after{content:"";position:absolute;width:270px;height:270px;right:-90px;bottom:-140px;background:rgba(255,85,0,.12);filter:blur(50px);border-radius:50%;pointer-events:none;}
+#jurysoft-standard .js-feature-card{box-sizing:border-box;width:min(750px,82vw);height:320px;position:relative;isolation:isolate;overflow:hidden;flex:none;border-radius:18px;border:1px solid rgba(255,255,255,.13);background:linear-gradient(110deg,#0c1424 0%,#101d38 52%,#0a1222 100%);padding:36px;display:grid;grid-template-columns:minmax(0,1fr) 190px;align-items:center;gap:30px;}
+#jurysoft-standard .js-feature-card::before{content:"";position:absolute;inset:0;z-index:-1;background-image:url("./images/delivery/7.png");background-size:cover;background-position:center;opacity:0.35;filter:grayscale(0.3);}
+#jurysoft-standard .js-feature-card::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(110deg,rgba(7,19,41,.98) 0%,rgba(11,22,38,.9) 52%,rgba(7,19,41,.99) 100%);}
+#jurysoft-standard .js-feature-card:after{content:"";position:absolute;width:270px;height:270px;right:-90px;bottom:-140px;background:rgba(255,85,0,.12);filter:blur(50px);border-radius:50%;pointer-events:none;z-index:0;}
 #jurysoft-standard .js-feature-copy,#jurysoft-standard .js-standard-badge{position:relative;z-index:1;}
 #jurysoft-standard .js-feature-copy h3{font-size:clamp(23px,2.2vw,32px);line-height:1.2;font-weight:700;letter-spacing:-.035em;color:#fff;margin-bottom:16px;}
 #jurysoft-standard .js-feature-copy p{font-size:12px;line-height:1.9;color:#b7c1d0;max-width:490px;}
@@ -1623,7 +1617,8 @@ html.lenis,html.lenis body{height:auto}
   <div class="md-foot">Bengaluru &middot; Chennai &middot; Dubai</div>
 </div>
 <button class="m-cta" onclick="toggleModal(true)" type="button">Talk to experts</button>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
 <!-- ================= HERO CONTAINER ================= -->
 <section aria-label="Hero Showcase" class="relative w-full min-h-screen flex flex-col justify-between overflow-hidden select-none">
 <!-- DUAL VIDEO BACKGROUND ENGINE (Zero-Flicker Crossfading) -->
@@ -2111,7 +2106,7 @@ html.lenis,html.lenis body{height:auto}
       <div class="pr-item" data-reveal style="--d:0ms">
         <article class="pr-card">
           <div class="pr-media">
-            <img alt="Modern enterprise workspace" loading="lazy" onerror="this.remove()" src="./images/negotiate/1.png"/>
+            <img alt="Modern enterprise workspace" loading="lazy" width="400" height="300" onerror="this.remove()" src="./images/negotiate/1.png"/>
             <span class="pr-num">01</span>
           </div>
           <div class="pr-body">
@@ -2127,7 +2122,7 @@ html.lenis,html.lenis body{height:auto}
       <div class="pr-item" data-reveal style="--d:110ms">
         <article class="pr-card">
           <div class="pr-media">
-            <img alt="Team collaborating directly" loading="lazy" onerror="this.remove()" src="./images/negotiate/2.png"/>
+            <img alt="Team collaborating directly" loading="lazy" width="400" height="300" onerror="this.remove()" src="./images/negotiate/2.png"/>
             <span class="pr-num">02</span>
           </div>
           <div class="pr-body">
@@ -2143,7 +2138,7 @@ html.lenis,html.lenis body{height:auto}
       <div class="pr-item" data-reveal style="--d:220ms">
         <article class="pr-card">
           <div class="pr-media">
-            <img alt="Business analytics and outcomes" loading="lazy" onerror="this.remove()" src="./images/negotiate/3.png"/>
+            <img alt="Business analytics and outcomes" loading="lazy" width="400" height="300" onerror="this.remove()" src="./images/negotiate/3.png"/>
             <span class="pr-num">03</span>
           </div>
           <div class="pr-body">
@@ -2159,7 +2154,7 @@ html.lenis,html.lenis body{height:auto}
       <div class="pr-item" data-reveal style="--d:330ms">
         <article class="pr-card">
           <div class="pr-media">
-            <img alt="Enterprise data infrastructure" loading="lazy" onerror="this.remove()" src="./images/negotiate/4.png"/>
+            <img alt="Enterprise data infrastructure" loading="lazy" width="400" height="300" onerror="this.remove()" src="./images/negotiate/4.png"/>
             <span class="pr-num">04</span>
           </div>
           <div class="pr-body">
@@ -3344,7 +3339,7 @@ html.lenis,html.lenis body{height:auto}
       <article class="cs-card is-active" data-acc="orange" tabindex="0" aria-label="Case study 01: IATF-compliant ERP">
         <div class="cs-media">
           <svg class="cs-art" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M17 18h1"/><path d="M12 18h1"/><path d="M7 18h1"/></svg>
-          <img alt="Manufacturing floor and industrial engineering" loading="lazy" onerror="this.remove()" src="./images/CaseStudies/1.png"/>
+          <img alt="Manufacturing floor and industrial engineering" loading="lazy" width="400" height="300" onerror="this.remove()" src="./images/CaseStudies/1.png"/>
         </div>
         <div class="cs-veil"></div>
         <div class="cs-rest" aria-hidden="true"><span class="cs-idx">01</span><span class="cs-vtag">ERP · Manufacturing</span></div>
@@ -3363,7 +3358,7 @@ html.lenis,html.lenis body{height:auto}
       <article class="cs-card" data-acc="blue" tabindex="0" aria-label="Case study 02: Agentic dispatch AI">
         <div class="cs-media">
           <svg class="cs-art" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>
-          <img alt="Warehouse and last-mile logistics operations" loading="lazy" onerror="this.remove()" src="./images/CaseStudies/2.png"/>
+          <img alt="Warehouse and last-mile logistics operations" loading="lazy" width="400" height="300" onerror="this.remove()" src="./images/CaseStudies/2.png"/>
         </div>
         <div class="cs-veil"></div>
         <div class="cs-rest" aria-hidden="true"><span class="cs-idx">02</span><span class="cs-vtag">AI · Logistics</span></div>
@@ -3382,7 +3377,7 @@ html.lenis,html.lenis body{height:auto}
       <article class="cs-card" data-acc="green" tabindex="0" aria-label="Case study 03: Pipeline engine for B2B SaaS">
         <div class="cs-media">
           <svg class="cs-art" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
-          <img alt="Growth analytics dashboard on a laptop" loading="lazy" onerror="this.remove()" src="./images/CaseStudies/3.png"/>
+          <img alt="Growth analytics dashboard on a laptop" loading="lazy" width="400" height="300" onerror="this.remove()" src="./images/CaseStudies/3.png"/>
         </div>
         <div class="cs-veil"></div>
         <div class="cs-rest" aria-hidden="true"><span class="cs-idx">03</span><span class="cs-vtag">Growth · B2B SaaS</span></div>
@@ -3415,9 +3410,9 @@ html.lenis,html.lenis body{height:auto}
           </div>
         </div>
         <div class="ct-collage" aria-hidden="true">
-          <figure class="ct-tile t1"><img alt="" loading="lazy" onerror="this.remove()" src="./images/cta/3.png"/></figure>
-          <figure class="ct-tile t2"><img alt="" loading="lazy" onerror="this.remove()" src="./images/cta/2.png"/></figure>
-          <figure class="ct-tile t3"><img alt="" loading="lazy" onerror="this.remove()" src="./images/cta/1.png"/></figure>
+<figure class="ct-tile t1"><img alt="Jurysoft project showcase 1" loading="lazy" width="400" height="300" onerror="this.remove()" src="./images/cta/3.png"/></figure>
+<figure class="ct-tile t2"><img alt="Jurysoft project showcase 2" loading="lazy" width="400" height="300" onerror="this.remove()" src="./images/cta/2.png"/></figure>
+<figure class="ct-tile t3"><img alt="Jurysoft project showcase 3" loading="lazy" width="400" height="300" onerror="this.remove()" src="./images/cta/1.png"/></figure>
           <div class="ct-chip"><i class="a"></i><i class="b"></i><i class="c"></i>Bengaluru &middot; Chennai &middot; Dubai</div>
         </div>
       </div>
@@ -3465,9 +3460,10 @@ html.lenis,html.lenis body{height:auto}
 </footer>
 
 <!-- =================== SECTION END =================== -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
 <script>
 (function(){
   const root = document.documentElement;
@@ -3596,7 +3592,7 @@ html.lenis,html.lenis body{height:auto}
   mm.add('(min-width: 861px)', () => {
     ScrollTrigger.create({
       trigger: '#tableWrap',
-      start: 'center center',
+      start: 'center 55%',
       end: '+=1700',
       pin: true,
       anticipatePin: 1,
@@ -3912,6 +3908,11 @@ html.lenis,html.lenis body{height:auto}
   }
 
   window.addEventListener('pointermove', e => { px = (e.clientX / innerWidth - .5) * 2; py = (e.clientY / innerHeight - .5) * 2; });
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(entries => {
+      entries.forEach(entry => { glActive = entry.isIntersecting; });
+    }, { rootMargin: '100px' }).observe(cv);
+  }
   (function loop(){ if (glActive && GL){ try { renderFrame(); } catch(e){ GL = false; cv.style.display = 'none'; console.warn(e); } } requestAnimationFrame(loop); })();
 
   /* ===================================================================
@@ -3942,13 +3943,6 @@ html.lenis,html.lenis body{height:auto}
   try {
   gsap.registerPlugin(ScrollTrigger);
   ScrollTrigger.config({ ignoreMobileResize: true });
-
-  if (window.Lenis && !window.__lenis) {
-    const lenis = window.__lenis = new Lenis({ lerp: .09, smoothWheel: true });
-    lenis.on('scroll', ScrollTrigger.update);
-    gsap.ticker.add(t => lenis.raf(t * 1000));
-    gsap.ticker.lagSmoothing(0);
-  }
 
   ScrollTrigger.create({
     trigger: '#drishtam', start: 'top bottom', end: 'bottom top',
@@ -4988,10 +4982,19 @@ img{max-width:100%}
     new IntersectionObserver(es => es.forEach(e => b.classList.toggle('hide-fab', e.isIntersecting)), { threshold: .25 }).observe(contact);
 
   /* credentials download: set your real file URL here (e.g. 'assets/jurysoft-credentials.pdf') */
-  const CREDENTIALS_URL = '';
+  const CREDENTIALS_URL = './assets/jurysoft-credentials.pdf';
   d.querySelectorAll('[data-credentials]').forEach(btn => btn.addEventListener('click', () => {
-    if (CREDENTIALS_URL) { const a = d.createElement('a'); a.href = CREDENTIALS_URL; a.download = ''; d.body.appendChild(a); a.click(); a.remove(); }
-    else if (window.toggleModal) window.toggleModal(true);
+    if (CREDENTIALS_URL) {
+      const a = d.createElement('a');
+      a.href = CREDENTIALS_URL;
+      a.download = 'jurysoft-credentials.pdf';
+      a.rel = 'noopener noreferrer';
+      d.body.appendChild(a);
+      a.click();
+      a.remove();
+    } else if (window.toggleModal) {
+      window.toggleModal(true);
+    }
   }));
 })();
 </script>
@@ -5057,6 +5060,8 @@ img{max-width:100%}
 .site-nav.is-solid{-webkit-backdrop-filter:blur(12px)!important;backdrop-filter:blur(12px)!important}
 /* infinite loops only run while the CTA is on screen */
 .ct-panel:not(.live),.ct-panel:not(.live) .ct-chip{animation-play-state:paused}
+/* content-visibility for offscreen heavy sections */
+#drishtam, #jurysoft-standard, #results, #contact { content-visibility: auto; contain-intrinsic-size: 0 1000px; }
 @media (max-width:700px){
   /* swipe cards must never wait on a reveal trigger */
   .pr-grid .pr-item[data-reveal]{opacity:1!important;transform:none!important}
